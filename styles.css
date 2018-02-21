@@ -5,7 +5,7 @@ html {
     background: #666;
 }
 
-#cards-container {
+.cards-container {
     max-width: 910px;
     margin: 5% auto;
 }
@@ -22,7 +22,7 @@ html {
     float: left;
     margin: 1%;
     height: 560px;
-    
+    padding: 2px;
 }
 
 .card .image {
@@ -30,8 +30,7 @@ html {
     margin: 0;
     background-size: cover;
     position: relative;
-    text-align: center;
-    
+    text-align: center; 
 }
 
 .card .image div {
@@ -75,10 +74,10 @@ html {
     
 }
 
-
 .card .fun-fact {
     font-style: italic;
 }
+
 
 .card ul {
     list-style: none;
@@ -88,4 +87,10 @@ html {
 
 .card ul span {
     font-weight: bold;
+}
+
+#test {
+    background: red;
+    width 1000px;
+    max-height: 100%;
 }
